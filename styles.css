@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffd6e1; /* Baby pink background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ffb6c1; /* Cute pink color for buttons */
+    border: 1px solid #000;
+    border-radius: 15px; /* Rounded corners for cuteness */
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.option:hover {
+    background-color: #ff8b94; /* Lighter pink on hover */
+}
+
+.panda {
+    background-image: url('Yash\ Poker.jpg'); /* Replace with your panda image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px; /* Adjusted width */
+    height: 250px; /* Adjusted height */
+    margin-bottom: 20px; /* Add margin at the bottom to separate from the question */
+}
